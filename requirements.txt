@@ -1,0 +1,11 @@
+# Python dependencies to reproduce the experiment and figures.
+# Dataset generation, detector logic, and scoring use only the Python
+# standard library; the packages below cover figure generation and the
+# Presidio detector configuration.
+#
+# Manuscript (Word/PDF) generation is handled separately by paper/package.json
+# and is NOT listed here.
+
+numpy              # figure generation (make_figures.py)
+matplotlib         # figure generation (make_figures.py)
+presidio-analyzer  # required to reproduce the published Presidio numbers
